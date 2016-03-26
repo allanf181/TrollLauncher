@@ -46,7 +46,7 @@ namespace TrollLauncher
             if (this.checkBox3.Checked == true) { BT3V = "false"; } else { BT3V = "true"; }
             Form2.BT3(BT3C, this.textBox5.Text, BT1V, this.textBox6.Text, BT2V, this.textBox7.Text, BT3V);
             this.notifyIcon1.Visible = true;
-
+            this.timer1.Start();
             this.Hide();
         }
 
@@ -655,6 +655,11 @@ namespace TrollLauncher
         {
             Sobre sobre = new Sobre();
             sobre.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Form2.Activate();
         }
     }
 }

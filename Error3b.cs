@@ -28,7 +28,6 @@ namespace TrollLauncher
         public Error3b()
         {
             InitializeComponent();
-            
         }
 
         internal void AddPicture(Image img)
