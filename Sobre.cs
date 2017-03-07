@@ -24,12 +24,12 @@ namespace TrollLauncher
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(this.linkLabel2.Text);
+            System.Diagnostics.Process.Start(this.linkLabel3.Text);
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(this.linkLabel3.Text);
+            System.Diagnostics.Process.Start(this.linkLabel2.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)

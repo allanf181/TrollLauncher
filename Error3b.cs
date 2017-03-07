@@ -32,8 +32,8 @@ namespace TrollLauncher
 
         internal void AddPicture(Image img)
         {
-            Image iOld = this.pictureBox1.Image;
-            this.pictureBox1.Image = (Image)img.Clone();
+            Image iOld = this.ImgBox.Image;
+            this.ImgBox.Image = (Image)img.Clone();
 
             if (iOld != null)
                 iOld.Dispose();
@@ -41,19 +41,19 @@ namespace TrollLauncher
 
         internal void SetLabel1(string txt1)
         {
-            this.label1.Text = (string)txt1.Clone();
+            this.labelLinha1.Text = (string)txt1.Clone();
         }
         internal void SetLabel2(string txt2)
         {
-            this.label2.Text = (string)txt2.Clone();
+            this.labelLinha2.Text = (string)txt2.Clone();
         }
         internal void SetLabel3(string txt3)
         {
-            this.label3.Text = (string)txt3.Clone();
+            this.labelLinha3.Text = (string)txt3.Clone();
         }
         internal void SetLabel4(string txt4)
         {
-            this.label4.Text = (string)txt4.Clone();
+            this.labelLinha4.Text = (string)txt4.Clone();
         }
         internal void SetTitle(string title)
         {

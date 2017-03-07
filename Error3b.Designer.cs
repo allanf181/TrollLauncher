@@ -28,61 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.ImgBox = new System.Windows.Forms.PictureBox();
+            this.labelLinha1 = new System.Windows.Forms.Label();
+            this.labelLinha2 = new System.Windows.Forms.Label();
+            this.labelLinha3 = new System.Windows.Forms.Label();
+            this.labelLinha4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // ImgBox
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.ImgBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgBox.Location = new System.Drawing.Point(12, 12);
+            this.ImgBox.Name = "ImgBox";
+            this.ImgBox.Size = new System.Drawing.Size(64, 64);
+            this.ImgBox.TabIndex = 0;
+            this.ImgBox.TabStop = false;
             // 
-            // label1
+            // labelLinha1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.labelLinha1.AutoSize = true;
+            this.labelLinha1.Location = new System.Drawing.Point(82, 13);
+            this.labelLinha1.Name = "labelLinha1";
+            this.labelLinha1.Size = new System.Drawing.Size(35, 13);
+            this.labelLinha1.TabIndex = 1;
+            this.labelLinha1.Text = "label1";
             // 
-            // label2
+            // labelLinha2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(82, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.labelLinha2.AutoSize = true;
+            this.labelLinha2.Location = new System.Drawing.Point(82, 29);
+            this.labelLinha2.Name = "labelLinha2";
+            this.labelLinha2.Size = new System.Drawing.Size(35, 13);
+            this.labelLinha2.TabIndex = 2;
+            this.labelLinha2.Text = "label2";
             // 
-            // label3
+            // labelLinha3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 45);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.labelLinha3.AutoSize = true;
+            this.labelLinha3.Location = new System.Drawing.Point(82, 45);
+            this.labelLinha3.Name = "labelLinha3";
+            this.labelLinha3.Size = new System.Drawing.Size(35, 13);
+            this.labelLinha3.TabIndex = 3;
+            this.labelLinha3.Text = "label3";
             // 
-            // label4
+            // labelLinha4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(82, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
+            this.labelLinha4.AutoSize = true;
+            this.labelLinha4.Location = new System.Drawing.Point(82, 63);
+            this.labelLinha4.Name = "labelLinha4";
+            this.labelLinha4.Size = new System.Drawing.Size(35, 13);
+            this.labelLinha4.TabIndex = 4;
+            this.labelLinha4.Text = "label4";
             // 
             // button1
             // 
@@ -119,11 +119,11 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.labelLinha4);
+            this.Controls.Add(this.labelLinha3);
+            this.Controls.Add(this.labelLinha2);
+            this.Controls.Add(this.labelLinha1);
+            this.Controls.Add(this.ImgBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -132,7 +132,7 @@
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Error";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,11 +140,11 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox ImgBox;
+        private System.Windows.Forms.Label labelLinha1;
+        private System.Windows.Forms.Label labelLinha2;
+        private System.Windows.Forms.Label labelLinha3;
+        private System.Windows.Forms.Label labelLinha4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
